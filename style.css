@@ -1,0 +1,60 @@
+
+body{
+  background-image: url("https://i.ibb.co/60YM9w0/bg.gif");
+  -no-repeat: center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+.container {
+
+
+  width: 50%;
+}
+
+/* Make the image responsive */
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+  background-color: #1C8FE9;
+font-family: sans-serif;
+  border-radius: 20px;
+  color: white;
+  width: 200px;
+  padding: 20px;
+  border-style: solid;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+
+
+
+
+  margin-top: 60px;
+  margin-left: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+  color: white;
+  font-size: 40px;
+  padding: 20px 30px;
+
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.container .btn:hover {
+  background-color: black;
+}
+
+.question{
+  margin: 110px 10px 10px 460px;
+  font-size: 20px;
+  font-family: monospace;
+}
