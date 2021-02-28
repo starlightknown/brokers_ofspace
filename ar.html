@@ -1,0 +1,106 @@
+<script src="https://cdn.jsdelivr.net/gh/aframevr/aframe@1c2407b26c61958baa93967b5412487cd94b290b/dist/aframe-master.min.js"></script>
+<script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar-nft.js"></script>
+
+
+<script>
+  AFRAME.registerComponent('markerhandler', {
+    init: function () {
+      window.alert("Verify your identity Space Ranger");
+      this.el.sceneEl.addEventListener('markerFound', () => {
+        // redirect to custom URL e.g. google.com
+
+
+
+        window.alert("Verification Successful !!");
+
+
+        window.location = 'homepage.html';
+
+      })
+    }
+  });
+</script>
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Space Brokers</title>
+  </head>
+  <body>
+    <audio src="space.mp3" autoplay loop></audio>
+    <body style="margin : 40px; overflow: hidden;">
+
+      <div class="container">
+
+        <a-scene
+         height = "60%"
+         width = "60"
+         vr-mode-ui="enabled: false;"
+         renderer="logarithmicDepthBuffer: true;"
+         embedded
+         arjs="trackingMethod: best; sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3;">
+
+         <a-marker markerhandler preset="hiro">
+
+           <a-sphere src="https://raw.githubusercontent.com/aframevr/sample-assets/master/assets/images/space/earth_atmos_4096.jpg" radius="0.5" position="0 0.5 0" segments-height="53">
+                    <a-animation attribute="scale"
+                         dur="1000"
+                         from= "3 3 3"
+                         to="5 5 5"
+                         direction='alternate-reverse'
+                         transition-timing-function: ease-in;
+                         transition: 0.2s;
+                         transform: translateY(130%);
+                         repeat="indefinite"></a-animation>
+                </a-sphere>
+
+         </a-marker>
+
+         <a-entity camera></a-entity>
+       </a-scene>
+      </div>
+    </body>
+  </body>
+</html>
+
+
+
+
+
+
+<!-- <script src="https://cdn.jsdelivr.net/gh/aframevr/aframe@1c2407b26c61958baa93967b5412487cd94b290b/dist/aframe-master.min.js"></script>
+<script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar-nft.js"></script>
+  <link rel="stylesheet" href="styles.css">
+<script>
+  AFRAME.registerComponent('markerhandler', {
+    init: function () {
+      this.el.sceneEl.addEventListener('markerFound', () => {
+        // redirect to custom URL e.g. google.com
+        window.alert("Verification Successful !!");
+        window.location = 'home.html';
+      })
+    }
+  });
+</script>
+
+<body style="margin : 40px; overflow: hidden;">
+
+  <div class="container">
+    <img src="https://i.pinimg.com/originals/f4/a8/6a/f4a86a209ba10ab95afcfd4ed29f3acf.png" alt="xyz" >
+    <!-- <a-scene
+
+      vr-mode-ui="enabled: false;"
+      renderer="logarithmicDepthBuffer: true;"
+      embedded
+      arjs="trackingMethod: best; sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3;">
+
+      <a-marker markerhandler preset="hiro">
+          <a-box position='0 0.5 0' color="yellow"></a-box>
+      </a-marker>
+
+      <a-entity camera></a-entity>
+    </a-scene> -->
+  </div>
+</body> -->
