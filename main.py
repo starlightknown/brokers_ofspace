@@ -109,7 +109,6 @@ class Transaction:
 def buy(name, price):
 
     solariCrypto.createTrans(Transaction(name, "SpaceBrokers", price))
-    #print("Gloria has " + str(solariCrypto.getBalance("Gloria")) + " Solari on her account")
 
 @app.route('/mine',methods=['GET','POST'])
 def mine():
