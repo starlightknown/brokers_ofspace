@@ -40,6 +40,21 @@ font-family: sans-serif;
   margin: 4px 2px;
 }
 
+.buttonhehe{
+  background-color: #00000060;
+font-family: sans-serif;
+  border-radius: 20px;
+  color: white;
+  width: 200px;
+  padding: 20px;
+  border-style: solid;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
 .topnav {
   background-color: #0001;
   overflow: hidden;
