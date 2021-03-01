@@ -1,13 +1,12 @@
 ## SPACE BROKERS
 Since inception, millions of acres sold!
-<br>
+<img src="mars.gif" width="50" height="50" />
 <br>
 <br>
 ## Overview
 **Space colonization is here, where are you?**
 We're so close to colonize space, at least in theories. But like we'll need a proper real estate system for that, right? Well Space Brokers is there for that exact purpose.
 Our website sells properties on space, it uses SOLARI (self made cryptocurrency) for the sale of extraterrestrial property within the confines of our solar system. Don't miss out on this unique opportunity to get your very own piece of land on any planet you want!
-<br>
 <br>
 <br>
 ## What it does
