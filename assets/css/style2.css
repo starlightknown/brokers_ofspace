@@ -1,5 +1,5 @@
 body{
-  background-image: url("cosmos.svg");
+  background-image: url("/assets/images/cosmos.svg");
 }
 
 .heading{
@@ -27,7 +27,7 @@ body{
 
 .button {
   background-color: #ffffff00;
-font-family: sans-serif;
+  font-family: sans-serif;
   border-radius: 20px;
   color: white;
   width: 200px;
@@ -42,7 +42,7 @@ font-family: sans-serif;
 
 .buttonhehe{
   background-color: #00000060;
-font-family: sans-serif;
+  font-family: sans-serif;
   border-radius: 20px;
   color: white;
   width: 200px;
@@ -86,7 +86,7 @@ font-family: sans-serif;
 
 
 
-    transition: transform .2s;
+  transition: transform .2s;
   background-color:  #ffffff00;
   border: none;
   color: white;
