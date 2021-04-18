@@ -1,6 +1,6 @@
 ## SPACE BROKERS
 Since inception, millions of acres sold!
-<img src="mars.gif" width="50" height="50" />
+<img src="assets/images/mars.gif" width="50" height="50" />
 <br>
 <br>
 ## Overview
