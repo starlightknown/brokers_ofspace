@@ -1,8 +1,8 @@
-body{
-  background-image: url("/assets/images/cosmos.svg");
+body {
+  background-image: url("../images/cosmos.svg");
 }
 
-.heading{
+.heading {
   font-size: 80px;
   font-weight: bolder;
   font-family: monospace;
@@ -11,7 +11,7 @@ body{
   margin-top: 150px;
 }
 
-.heading2{
+.heading2 {
   font-size: 40px;
   font-family: monospace;
   color: white;
@@ -19,7 +19,7 @@ body{
   margin-top: 0;
 }
 
-.subheading{
+.subheading {
   color: white;
   font-size: 20px;
   font-style: italic;
@@ -40,7 +40,7 @@ body{
   margin: 4px 2px;
 }
 
-.buttonhehe{
+.buttonhehe {
   background-color: #00000060;
   font-family: sans-serif;
   border-radius: 20px;
@@ -58,7 +58,6 @@ body{
 .topnav {
   background-color: #0001;
   overflow: hidden;
-
 }
 .topnav a {
   float: right;
@@ -69,12 +68,11 @@ body{
   font-size: 17px;
 }
 .topnav .active {
-  background-color: #252B4C;
+  background-color: #252b4c;
   color: white;
-
 }
 
-.buttonplanet{
+.buttonplanet {
   background-color: #ffffff00;
   border-style: solid;
 }
@@ -83,11 +81,8 @@ body{
   border: 2px;
   border-style: solid;
 
-
-
-
-  transition: transform .2s;
-  background-color:  #ffffff00;
+  transition: transform 0.2s;
+  background-color: #ffffff00;
   border: none;
   color: white;
   padding: 0 0;
@@ -99,9 +94,9 @@ body{
   margin: 1px 1px;
   margin-bottom: 30px;
   cursor: pointer;
-  width: 150px; height: 150px;
-
-  }
+  width: 150px;
+  height: 150px;
+}
 .buttonxyz:hover {
   -ms-transform: scale(1.5); /* IE 9 */
   -webkit-transform: scale(1.5); /* Safari 3-8 */
